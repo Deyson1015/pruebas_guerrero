@@ -10,7 +10,7 @@ function HeroSectionComponent() {
       {/* Imagen de fondo */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/asset/fondo.webp"
+          src="/assets/fondo.webp"
           alt=""
           className="h-full w-full object-cover"
           aria-hidden="true"
