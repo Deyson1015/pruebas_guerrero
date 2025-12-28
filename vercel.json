@@ -1,14 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ]
+  "buildCommand": "npm run build",
+  "outputDirectory": "build/client"
 }
